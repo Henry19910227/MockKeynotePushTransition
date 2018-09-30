@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAFDE37D21607660003A47CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFDE37C21607660003A47CE /* AppDelegate.swift */; };
+		BAFDE37F21607660003A47CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFDE37E21607660003A47CE /* ViewController.swift */; };
+		BAFDE38221607660003A47CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAFDE38021607660003A47CE /* Main.storyboard */; };
+		BAFDE38421607660003A47CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFDE38321607660003A47CE /* Assets.xcassets */; };
+		BAFDE38721607660003A47CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAFDE38521607660003A47CE /* LaunchScreen.storyboard */; };
+		BAFDE39221607660003A47CE /* MockKeynoteTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFDE39121607660003A47CE /* MockKeynoteTestTests.swift */; };
+		BAFDE39D21607660003A47CE /* MockKeynoteTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFDE39C21607660003A47CE /* MockKeynoteTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAFDE38E21607660003A47CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAFDE37121607660003A47CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAFDE37821607660003A47CE;
+			remoteInfo = MockKeynoteTest;
+		};
+		BAFDE39921607660003A47CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAFDE37121607660003A47CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAFDE37821607660003A47CE;
+			remoteInfo = MockKeynoteTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAFDE37921607660003A47CE /* MockKeynoteTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockKeynoteTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAFDE37C21607660003A47CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAFDE37E21607660003A47CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BAFDE38121607660003A47CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAFDE38321607660003A47CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAFDE38621607660003A47CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAFDE38821607660003A47CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAFDE38D21607660003A47CE /* MockKeynoteTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockKeynoteTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAFDE39121607660003A47CE /* MockKeynoteTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockKeynoteTestTests.swift; sourceTree = "<group>"; };
+		BAFDE39321607660003A47CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAFDE39821607660003A47CE /* MockKeynoteTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockKeynoteTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAFDE39C21607660003A47CE /* MockKeynoteTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockKeynoteTestUITests.swift; sourceTree = "<group>"; };
+		BAFDE39E21607660003A47CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAFDE37621607660003A47CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAFDE38A21607660003A47CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAFDE39521607660003A47CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAFDE37021607660003A47CE = {
+			isa = PBXGroup;
+			children = (
+				BAFDE37B21607660003A47CE /* MockKeynoteTest */,
+				BAFDE39021607660003A47CE /* MockKeynoteTestTests */,
+				BAFDE39B21607660003A47CE /* MockKeynoteTestUITests */,
+				BAFDE37A21607660003A47CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAFDE37A21607660003A47CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAFDE37921607660003A47CE /* MockKeynoteTest.app */,
+				BAFDE38D21607660003A47CE /* MockKeynoteTestTests.xctest */,
+				BAFDE39821607660003A47CE /* MockKeynoteTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAFDE37B21607660003A47CE /* MockKeynoteTest */ = {
+			isa = PBXGroup;
+			children = (
+				BAFDE37C21607660003A47CE /* AppDelegate.swift */,
+				BAFDE37E21607660003A47CE /* ViewController.swift */,
+				BAFDE38021607660003A47CE /* Main.storyboard */,
+				BAFDE38321607660003A47CE /* Assets.xcassets */,
+				BAFDE38521607660003A47CE /* LaunchScreen.storyboard */,
+				BAFDE38821607660003A47CE /* Info.plist */,
+			);
+			path = MockKeynoteTest;
+			sourceTree = "<group>";
+		};
+		BAFDE39021607660003A47CE /* MockKeynoteTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAFDE39121607660003A47CE /* MockKeynoteTestTests.swift */,
+				BAFDE39321607660003A47CE /* Info.plist */,
+			);
+			path = MockKeynoteTestTests;
+			sourceTree = "<group>";
+		};
+		BAFDE39B21607660003A47CE /* MockKeynoteTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAFDE39C21607660003A47CE /* MockKeynoteTestUITests.swift */,
+				BAFDE39E21607660003A47CE /* Info.plist */,
+			);
+			path = MockKeynoteTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAFDE37821607660003A47CE /* MockKeynoteTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAFDE3A121607660003A47CE /* Build configuration list for PBXNativeTarget "MockKeynoteTest" */;
+			buildPhases = (
+				BAFDE37521607660003A47CE /* Sources */,
+				BAFDE37621607660003A47CE /* Frameworks */,
+				BAFDE37721607660003A47CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MockKeynoteTest;
+			productName = MockKeynoteTest;
+			productReference = BAFDE37921607660003A47CE /* MockKeynoteTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAFDE38C21607660003A47CE /* MockKeynoteTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAFDE3A421607660003A47CE /* Build configuration list for PBXNativeTarget "MockKeynoteTestTests" */;
+			buildPhases = (
+				BAFDE38921607660003A47CE /* Sources */,
+				BAFDE38A21607660003A47CE /* Frameworks */,
+				BAFDE38B21607660003A47CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAFDE38F21607660003A47CE /* PBXTargetDependency */,
+			);
+			name = MockKeynoteTestTests;
+			productName = MockKeynoteTestTests;
+			productReference = BAFDE38D21607660003A47CE /* MockKeynoteTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAFDE39721607660003A47CE /* MockKeynoteTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAFDE3A721607660003A47CE /* Build configuration list for PBXNativeTarget "MockKeynoteTestUITests" */;
+			buildPhases = (
+				BAFDE39421607660003A47CE /* Sources */,
+				BAFDE39521607660003A47CE /* Frameworks */,
+				BAFDE39621607660003A47CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAFDE39A21607660003A47CE /* PBXTargetDependency */,
+			);
+			name = MockKeynoteTestUITests;
+			productName = MockKeynoteTestUITests;
+			productReference = BAFDE39821607660003A47CE /* MockKeynoteTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAFDE37121607660003A47CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "廖冠翰";
+				TargetAttributes = {
+					BAFDE37821607660003A47CE = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					BAFDE38C21607660003A47CE = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = BAFDE37821607660003A47CE;
+					};
+					BAFDE39721607660003A47CE = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = BAFDE37821607660003A47CE;
+					};
+				};
+			};
+			buildConfigurationList = BAFDE37421607660003A47CE /* Build configuration list for PBXProject "MockKeynoteTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAFDE37021607660003A47CE;
+			productRefGroup = BAFDE37A21607660003A47CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAFDE37821607660003A47CE /* MockKeynoteTest */,
+				BAFDE38C21607660003A47CE /* MockKeynoteTestTests */,
+				BAFDE39721607660003A47CE /* MockKeynoteTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAFDE37721607660003A47CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAFDE38721607660003A47CE /* LaunchScreen.storyboard in Resources */,
+				BAFDE38421607660003A47CE /* Assets.xcassets in Resources */,
+				BAFDE38221607660003A47CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAFDE38B21607660003A47CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAFDE39621607660003A47CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAFDE37521607660003A47CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAFDE37F21607660003A47CE /* ViewController.swift in Sources */,
+				BAFDE37D21607660003A47CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAFDE38921607660003A47CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAFDE39221607660003A47CE /* MockKeynoteTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAFDE39421607660003A47CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAFDE39D21607660003A47CE /* MockKeynoteTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAFDE38F21607660003A47CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAFDE37821607660003A47CE /* MockKeynoteTest */;
+			targetProxy = BAFDE38E21607660003A47CE /* PBXContainerItemProxy */;
+		};
+		BAFDE39A21607660003A47CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAFDE37821607660003A47CE /* MockKeynoteTest */;
+			targetProxy = BAFDE39921607660003A47CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAFDE38021607660003A47CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAFDE38121607660003A47CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAFDE38521607660003A47CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAFDE38621607660003A47CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAFDE39F21607660003A47CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAFDE3A021607660003A47CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAFDE3A221607660003A47CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FN8272Q62;
+				INFOPLIST_FILE = MockKeynoteTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.henry.MockKeynoteTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAFDE3A321607660003A47CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FN8272Q62;
+				INFOPLIST_FILE = MockKeynoteTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.henry.MockKeynoteTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BAFDE3A521607660003A47CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FN8272Q62;
+				INFOPLIST_FILE = MockKeynoteTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.henry.MockKeynoteTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MockKeynoteTest.app/MockKeynoteTest";
+			};
+			name = Debug;
+		};
+		BAFDE3A621607660003A47CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FN8272Q62;
+				INFOPLIST_FILE = MockKeynoteTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.henry.MockKeynoteTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MockKeynoteTest.app/MockKeynoteTest";
+			};
+			name = Release;
+		};
+		BAFDE3A821607660003A47CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FN8272Q62;
+				INFOPLIST_FILE = MockKeynoteTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.henry.MockKeynoteTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MockKeynoteTest;
+			};
+			name = Debug;
+		};
+		BAFDE3A921607660003A47CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FN8272Q62;
+				INFOPLIST_FILE = MockKeynoteTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.henry.MockKeynoteTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MockKeynoteTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAFDE37421607660003A47CE /* Build configuration list for PBXProject "MockKeynoteTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAFDE39F21607660003A47CE /* Debug */,
+				BAFDE3A021607660003A47CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAFDE3A121607660003A47CE /* Build configuration list for PBXNativeTarget "MockKeynoteTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAFDE3A221607660003A47CE /* Debug */,
+				BAFDE3A321607660003A47CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAFDE3A421607660003A47CE /* Build configuration list for PBXNativeTarget "MockKeynoteTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAFDE3A521607660003A47CE /* Debug */,
+				BAFDE3A621607660003A47CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAFDE3A721607660003A47CE /* Build configuration list for PBXNativeTarget "MockKeynoteTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAFDE3A821607660003A47CE /* Debug */,
+				BAFDE3A921607660003A47CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAFDE37121607660003A47CE /* Project object */;
+}
