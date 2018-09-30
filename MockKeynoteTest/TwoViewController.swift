@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TwoViewController.swift
 //  MockKeynoteTest
 //
 //  Created by 廖冠翰 on 2018/9/30.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class TwoViewController: UIViewController {
+    
+    @IBOutlet weak var imageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        
     }
-
-
 }
-
