@@ -12,7 +12,7 @@ class HenryPushTransition: NSObject, UIViewControllerAnimatedTransitioning {
     
     func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         
-        return 0.5
+        return 0.3
     }
     
     func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
@@ -36,8 +36,7 @@ class HenryPushTransition: NSObject, UIViewControllerAnimatedTransitioning {
         
         //強制更新一次toVC subview的大小
         toVC.view.layoutIfNeeded()
-        
-        UIView.animate(withDuration: 0.5, animations: {
+        UIView.animate(withDuration: 0.3, animations: {
             
             toVC.view.alpha = 1
             snapshotView?.frame = toVC.imageView.frame

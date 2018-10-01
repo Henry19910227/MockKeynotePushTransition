@@ -22,6 +22,12 @@ extension OneViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
         navigationController?.delegate = self
     }
 }
@@ -87,12 +93,3 @@ extension OneViewController: UICollectionViewDelegateFlowLayout {
     
 }
 
-//MARK: - Event Handler
-extension OneViewController {
-    
-    @IBAction func pushButtonClick(_ sender: Any) {
-        
-        performSegue(withIdentifier: "PushToTwoVC", sender: nil)
-        
-    }
-}

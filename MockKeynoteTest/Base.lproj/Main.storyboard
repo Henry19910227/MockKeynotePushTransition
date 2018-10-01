@@ -92,10 +92,21 @@
                                     <constraint firstAttribute="height" constant="200" id="CvM-fj-KFg"/>
                                 </constraints>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="awX-gI-9fC">
+                                <rect key="frame" x="20" y="304" width="335" height="343"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="YWw-8U-Z23" firstAttribute="bottom" secondItem="awX-gI-9fC" secondAttribute="bottom" constant="20" id="4I0-DK-Fhw"/>
+                            <constraint firstItem="awX-gI-9fC" firstAttribute="leading" secondItem="YWw-8U-Z23" secondAttribute="leading" constant="20" id="8wy-V6-ppX"/>
+                            <constraint firstItem="YWw-8U-Z23" firstAttribute="trailing" secondItem="awX-gI-9fC" secondAttribute="trailing" constant="20" id="ACo-0M-Bzv"/>
                             <constraint firstItem="2Ue-53-NOc" firstAttribute="centerX" secondItem="YWw-8U-Z23" secondAttribute="centerX" id="Chm-LQ-azj"/>
+                            <constraint firstItem="awX-gI-9fC" firstAttribute="top" secondItem="2Ue-53-NOc" secondAttribute="bottom" constant="20" id="upv-Ty-7j8"/>
                             <constraint firstItem="2Ue-53-NOc" firstAttribute="top" secondItem="YWw-8U-Z23" secondAttribute="top" constant="20" id="wTQ-QL-N0o"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="YWw-8U-Z23"/>
